@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="MyP.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="allb">
+        <nav>
+            <div class="f">
+                <h1><span>Port</span>Folio</h1>
+              </div>
+             
+            <ul>
+                <li><a href="MyP.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ser.html">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="port.html">Contact Me</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <img src="./ham.png" alt="" height="30px" width="30px" class="ham">
+                
+              </div>
+          </nav>
+      <section class="main">
+        <div class="blg">
+            <h1>Blog By <span>Prity</span></h1>
+            <div class="blgi">
+                <h3>Basic Of HTML</h3>
+                <p>HTML stands for Hypertext Markup language, it is a language used to create and structure the content of the web.
+                </p>
+                <a href="https://prity7.hashnode.dev/basic-of-html"> Read More</a>
+            </div>
+            <div class="blgi">
+                <h3>Just Css Things !!!</h3>
+                <p>1. What is CSS and why use it ?</p>
+                   <p> Ans:CSS stands for Cascading Style Sheets.It's basically used to create good-looking websites by describing how the HTML
+                    elements are displayed on the screen. It also controls the layout of the website.We can add new looks to our old HTML documents.We can completely change the look of our website with only a few changes in CSS code.</p>
+                    <a href="https://prity7.hashnode.dev/just-css-things">Read More</a>
+            </div>
+            <div class="blgi">
+                <h3>HTML, CSS & JavaScript</h3>
+                <p>1.What is HTML? </p>
+                <p>Ans : HTML stands for Hypertext markup language. It is a language used to create and structure context on the web.HTML is one of the most important concepts for web development.</p>
+                <a href="https://prity7.hashnode.dev/html-css-javascript">Read More</a>
+            </div>
+            <div class="blgi">
+                <h3>Front end & Back end</h3>
+                <p>Front end :</p>
+                <p>The front end is that application that appairs in a client part and interacts with the user.Suppose we are making a web application for paying school fees.</p>
+                <a href="https://prity7.hashnode.dev/front-end-back-end">Read More</a>
+            </div>
+        </div>
+    </section>
+ 
+    </div>
+</body>
+<script>
+    function toggleMenu() {
+        const navUl = document.querySelector(" ul");
+        navUl.classList.toggle("active");
+    }
+  </script>
+</html>

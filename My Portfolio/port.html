@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="MyP.css">
+</head>
+<body>
+    <div class="all">
+      <nav>
+        <div class="f">
+          <h1><span>Port</span>Folio</h1>
+        </div>
+        
+        <ul>
+            <li><a href="MyP.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ser.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+          <img src="./ham.png" alt="" height="30px" width="30px" class="ham">
+         
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="r">Contact Me</h1>
+        
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="2" required></textarea>
+           
+            <button type="submit">Contact Me</button>
+        </form>
+    </div>
+      
+    </div>
+</body>
+<script>
+  function toggleMenu() {
+      const navUl = document.querySelector(" ul");
+      navUl.classList.toggle("active");
+  }
+</script>
+</html>

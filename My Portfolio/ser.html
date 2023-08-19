@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="MyP.css">
+</head>
+<body>
+    <div class="all">
+      <nav>
+        <div class="f">
+          <h1><span>Port</span>Folio</h1>
+        </div>
+        
+        <ul>
+            <li><a href="MyP.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="port.html">Contact Me</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+          <img src="./ham.png" alt="" height="30px" width="30px" class="ham">
+          
+        </div>
+      </nav>
+      <main>
+        <section class="service">
+          <img src="./ser1.png" alt="Service 1" height="50px" width="50px">
+          <h2>Pixel Perfect</h2>
+          <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+        </section>
+        <section class="service">
+          <img src="ser2.jpg" alt="Service 2" height="50px" width="50px">
+          <h2>Awesome Idea</h2>
+          <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+        </section>
+        <section class="service">
+          <img src="ser3.png" alt="Service 3" height="50px" width="50px">
+          <h2>Writting experience</h2>
+          <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+        </section>
+      </main>
+
+    </div>
+</body>
+<script>
+  function toggleMenu() {
+      const navUl = document.querySelector(" ul");
+      navUl.classList.toggle("active");
+  }
+</script>
+</html>
