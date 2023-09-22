@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  body {
+    margin: 0 10vw;
+  }
+  
+  header{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    padding: 0%;
+    
+  }
+  
+  div{
+  
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .list{
+    display: flex;
+    align-items: center;
+  }  
+  
+  .list li  {
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  
+  .list li a{
+      color:white;
+      padding: 7px 7px;
+      font-size: 20px;
+      border-radius: 4px;
+      margin: 10px;
+      cursor: pointer;
+      text-decoration: none;
+  
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+  }
+
+  .b {
+    width: 230px;
+    position: relative;
+    top: -550px;
+    left: 70px;
+  }
+
+  .main {
+    margin-left: 180px;
+    display: grid;
+    align-content: flex-start;
+    padding-left: 60px;
+    top: -450px;
+    position: relative;
+    
+  }
+  
+  .b2 {
+    width: 320px;
+    margin-left: 50px;
+
+  }
+.main2{
+    display: grid;
+    justify-content: center;
+    
+    
+}
+  .main2 h1 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .main2 h4 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .main2 p {
+    width: 65%;
+    font-size: 20px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .shop {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+  }
+  
+  .shop img {
+    width: 15px;
+    background-color: transparent;
+  }
+  
+  .shop p {
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+  }
+  
+  .shop span {
+    background-color: transparent;
+  }
+  
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    top: -400px;
+    margin-bottom: 30px;
+  }
+  
+  .media img {
+    scale: 0.8;
+  }
+
+  .dtls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+    top: -400px;
+    margin-bottom: 30px;
+  }
+  
+  .dtls-logo,
+  .case-logo {
+    scale: 0.8;
+    margin-bottom: 20px;
+  }
+  
+  .dtlsL {
+    display: flex;
+    align-items: center;
+  }
+  .al{
+    display: grid;
+    align-items: center;
+  }
+
+  .dtlsL img {
+    scale: 0.8;
+  }
+  .case2{
+
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 50px;
+      top: -400px;
+      margin-bottom: 30px;
+    
+  }
+  .case {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+    top: -400px;
+    margin-bottom: 30px;
+  }
+  
+  .item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cim {
+    scale: 0.8;
+  
+  }
+  .more{
+    display: grid;
+    width: 20%;
+  }
+
+
+  /**********product************/
+  .product {
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 0 50px;
+    position: relative;
+    top: -400px;
+    margin-bottom: 30px;
+  }
+  
+  .main2,
+  .main2 p,
+  .main2 h2,
+  .main2 img {
+    background-color: transparent;
+  }
+ 
+  .shop2 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: #000000;
+    
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+
+  .shop2 img {
+    scale: 0.8;
+    margin-right: 10px;
+  }
+  
+  .shop2 p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+    background-color:transparent;
+  }
+  
+  /*****footer****/
+
+  footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 50px;
+    
+    top: -400px;
+    margin-bottom: 30px;
+  }
+  
+  .logo{
+    scale: 0.8;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+  }
+  
+  ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  ul li:first-child{
+    margin-bottom: 10px;
+  }
+  
+  .sub{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .sub div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .sub div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .sub-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sub-button img{
+    scale: 0.8;
+  }
+  
+  .subs-button p{
+    font-size: 12px;
+  }
+  
+  .sub div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+  }
+  
+  .arr{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }
+
+  /* allProducts */
+.allProducts {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+  padding: 0 50px;
+  position: relative;
+  top: -400px;
+  margin-bottom: 30px;
+}
+.all{
+  margin: 0 150px;
+  background: #181a1b;
+  display: grid;
+  align-items: center;
+  
+}
+
+.plogo {
+  display: flex;
+  flex-direction: column;
+  scale: 0.3;
+  width: 640px;
+}
+
