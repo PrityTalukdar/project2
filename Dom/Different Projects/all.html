@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .lg{
+            font-size: 40px;
+            font-style: italic;
+        }
+        .sm{
+            font-size: 25px;
+            font-style: normal;
+        }
+        #container{ 
+           max-width: 600px;
+           margin: 6% auto;
+           padding: 20px 20px;
+           background-color: #fcefef;
+           border-radius: 5px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        }
+        h1{
+            justify-content: center;
+        }
+    </style>
+    <script type="text/javascript">
+
+        function funlr1(){  
+            alert("One click");
+        }
+        function funsm2(){
+            alert("Dubble click");
+        }
+        function funlr(){
+            n3.className="lg";
+         
+        }
+        function funsm(){
+            n3.className="sm";
+        }
+
+        function funn(){
+            alert("A key has been pressed inside the input field");
+        }
+        function fun2(){
+            document.getElementById("n5").innerHTML = "You pressed a key inside the input field";
+        }
+        function myFunction() {
+        let x = document.getElementById("n6");
+        x.value = x.value.toUpperCase();
+}
+    </script>    
+</head>
+<body>
+    <nav id="container">
+    <h1>All Events</h1>
+    <ol>
+        <li>
+            <h1> onclick</h1>
+            <div>
+            <p id="n1" onclick="funlr1()";  >Use of onclick event</p>
+            </div>
+        </li>
+        <li>
+            <h1>ondblclick</h1>
+            <div>
+            <p id="n2"  ondblclick="funsm2()"; >Use of ondblclick event</p>
+            </div>
+        </li>
+        <li>
+            <h1>onmouseover & onmouseout</h1>
+            <div>
+            <p id="n3" onmouseover="funlr()"; onmouseout="funsm()"; style="font-size: 30;">Use of onmouseover & onmouseout events</p>
+            </div>
+        </li>
+         <li>
+           <h1>onkeypress</h1>
+           <div>
+            <p>Please Enter Something in the input box</p>
+            <input type="text" onkeypress="funn()" id="n4">
+           </div>
+        </li>
+        <li>
+            <h1>keydown</h1>
+            <div>
+                <p>Please Enter Something in the input box</p>
+                <input type="text" onkeydown="fun2()">
+                <p id="n5"></p>
+               </div>
+        </li>
+        <li>
+            <div>
+                <h1>keyup</h1>
+                <p>Please Enter Something in the input box</p>
+                <input type="text" onkeyup="myFunction()" id="n6">
+            </div>  
+        </li>
+    </ol>
+    
+  </nav> 
+</body>
+</html>
